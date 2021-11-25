@@ -21,7 +21,7 @@
    * [Database](#Postgres)
    * [Logging](#Logging)
   2. [Frontend](#Frontend)
-   * [Web Application](#Node.js)
+   * [Web Application](#Node)
    * [Analytics](#Tableau)
    * [Alexa](#Alexa)
 ---
@@ -67,7 +67,7 @@
 ---
  ## <u>Frontend</u>
 
-  ### Node.js
+  ### Node
    * Front-end will web application to monitor data points and remotely manage the SMS
      * This will be a web application that can:
      * View hourly/daily/weekly averages and current data collected from the Raspberry Pi sensors
