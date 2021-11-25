@@ -12,18 +12,18 @@
 
 ---
  ## Services To Be Integrated
-  1. [Backend](##Backend)
-   * [Containerization](###Docker)
-   * [Processing Servers](###C++-Based-Servers)
-   * [Sensor Monitoring System (SMS)](###Microcontroller)
-   * [Application Management](###Application-Management)
-   * [Alert Management - Messaging Queue (MQ)](###Zookeeper/Qpid)
-   * [Database](###Postgres)
-   * [Logging](###Logging)
-  2. [Frontend](##Frontend)
-   * [Web Application](###Node.js)
-   * [Analytics](###Tableau)
-   * [Alexa](###Alexa)
+  1. [Backend](#Backend)
+   * [Containerization](#Docker)
+   * [Processing Servers](#C++-Based-Servers)
+   * [Sensor Monitoring System (SMS)](#Microcontroller)
+   * [Application Management](#Application-Management)
+   * [Alert Management - Messaging Queue (MQ)](#Zookeeper/Qpid)
+   * [Database](#Postgres)
+   * [Logging](#Logging)
+  2. [Frontend](#Frontend)
+   * [Web Application](#Node.js)
+   * [Analytics](#Tableau)
+   * [Alexa](#Alexa)
 ---
  ## <u>Backend</u>
  The backend will be responsible for connecting the frontend users to the database, load balancing connections amongst several servers, monitoring the health of the applications (SMS, servers, database),  sending any alerts heard from the SMS (to frontend users) or from the crashing of an application (to the admin), automatically launching backup containers (previously working versions of an application) should a new version crash, and monitoring sensors via SMS.
