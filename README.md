@@ -17,7 +17,7 @@
    * [Processing Servers](#C++-Based-Servers)
    * [Sensor Monitoring System (SMS)](#Microcontroller)
    * [Application Management](#Application-Management)
-   * [Alert Management - Messaging Queue (MQ)](#Zookeeper/Qpid)
+   * [Alert Management - Messaging Queue (MQ)](#Zookeeper-Qpid)
    * [Database](#Postgres)
    * [Logging](#Logging)
   2. [Frontend](#Frontend)
@@ -57,7 +57,7 @@
      * Temperature HighCrit/LowCrit, HighWarn/LowWarn
      * Soil humidity HighCrit/LowCrit
 
-  ###  Zookeeper/Qpid (MQ)
+  ###  Zookeeper Qpid
    * This will be how alerts are sent from the sensor systems and application monitor to the C++ Servers.
    * The Application Management Tool (docker crashes and log locations), Alexa (friendly SMS alert awareness), and Web Application (SMS alert notices) will all subscribe to these.
 
@@ -78,7 +78,7 @@
    * For logging events outside of sensory data (when and how much water)
    * Alexa is chosen because the event is simple, and otherwise logging the event would be tedious.
 
-  ### Application mnanagement
+  ### Application Management
    * Monitor the state of a docker container/application
    * Allow an admin to monitor who is attached to the servers
    * Should an action take too long to execute, automatically up the log levels and alert admin to investigate
