@@ -14,7 +14,7 @@
  ## Services To Be Integrated
   1. [Backend](#Backend)
    * [Containerization](#Docker)
-   * [Processing Servers](#C++-Based-Servers)
+   * [Processing Servers](#Backend-Servers)
    * [Sensor Monitoring System (SMS)](#Microcontroller)
    * [Application Management](#Application-Management)
    * [Alert Management - Messaging Queue (MQ)](#Zookeeper-Qpid)
@@ -33,7 +33,8 @@
      * Should a container crash, also log the details in a log file and alert the admin 
    * Quickly provide an environment for which the applications are known to run in.
 
-  ### C++ Based Servers
+  ### Backend Servers
+   * These will be C++ based
    * There will be one frontend server that will load balance the users connections to the processing servers.
    * Authentication: 
      * Front-end will be kerberos or ldap ( web application, Tableau ), and SSL cert ( Alexa, Application Management )
