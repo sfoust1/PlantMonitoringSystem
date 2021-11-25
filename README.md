@@ -9,6 +9,7 @@
   This SMS will be geared towards the health and state of a plant system, including: air/soil humidity, temperature, and sun light. However, the goal is to provide an architecture to allow this list to grow with minimal maintenance. 
   This data will be access-controlled and viewable through a quick access web application or deep view through Tableau.
   The various technologies integrated are there with the goal of providing failover for the servers (backend/postgres), alert management, and ease/speed of deployment.
+
 ---
  ## Services To Be Integrated
   1. [Backend](##Backend)
