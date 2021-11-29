@@ -54,7 +54,7 @@ This document was basically a helper to creating the task placement document
 -	Write function for returning which IP address a client should connect to.
 -	Write function for authenticating a users’ connection
 
-App Management
+## App Management
 -	Write listener for alerts
   - SMS exceedance
   - Client Command process server execution exceedance
